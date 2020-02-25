@@ -24,8 +24,17 @@
 
     <!--MENU----------------------------------------------->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Bookstore</a>
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <div class="container">
+          <a class="navbar-brand" href="#">Bookstore</a>
+          <div class="btn-group btn-group-toggle" data-toggle="buttons">
+            <label class="btn btn-primary active">
+              <input type="radio" name="language" id="langEn" autocomplete="off" checked> English
+            </label>
+            <label class="btn btn-primary">
+              <input type="radio" name="language" id="langEs" autocomplete="off"> Español
+            </label>
+          </div>
+      </div>
     </nav>
 
     <!--PAGE CONTENT--------------------------------------->

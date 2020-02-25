@@ -6,6 +6,23 @@
     margin-top: 30px
 }
 
+.navbar .container {
+  margin-top: 0px
+}
+
+.form-control {
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.navbar-brand {
+  margin-left: 15px;
+}
+
+.btn-group {
+  margin-right: 15px;
+}
+
 
 /*****************  *******************/
 
@@ -42,6 +59,9 @@
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
     border-radius: 5px;
+  }
+
+  .flip-card-front {
     border: 1px #bbb solid;
   }
 
